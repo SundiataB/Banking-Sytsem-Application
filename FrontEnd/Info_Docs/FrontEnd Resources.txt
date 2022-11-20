@@ -1,0 +1,14 @@
+
+Some basic HTML Resources:
+https://www.w3schools.com/tags/tag_head.asp - This is what every html file should be structured like (head, body, footer)
+https://www.w3schools.com/tags/tag_nav.asp - nav element for making links
+https://www.w3schools.com/tags/tag_form.asp - form element for making forms (see legend element as well if you want)
+https://www.w3schools.com/tags/tag_hn.asp - heading elements for creating headings
+https://www.w3schools.com/tags/tag_select.asp - <select> element to create a drop down selection for a form
+
+CSS examples:
+https://www.w3schools.com/css/
+
+Java Web Server info:
+https://stackify.com/tomcat-vs-jetty-vs-glassfish-vs-wildfly/ - comparison of various application servers
+https://www.eclipse.org/jetty/ - Link to Jetty (Send to DevOps for deployment/testing)

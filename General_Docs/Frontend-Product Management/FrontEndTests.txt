@@ -1,0 +1,21 @@
+Tested pages with issues:
+HomepageLoggedout
+-FAQ page leads to credit score-
+-Login Page leads nowhere
+-black background
+-Register page when completed leads nowhere
+
+Create Account Page
+-Black background
+-Return to login page should leas into login page
+
+Login page
+-There is no login page
+
+ContactPage
+-Issue with CEO picture not showing
+
+FAQ
+-Duplicate FAQ page not sure which is being used
+
+For future Test the links should lead to the appropriate pages and stylized.

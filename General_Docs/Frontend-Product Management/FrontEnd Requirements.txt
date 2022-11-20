@@ -1,0 +1,9 @@
+Front-End Requirements
+
+Create Web App Pages for the user to interact with
+Make a form for logging in
+Make a form for creating a new account
+Design Home page
+Consolidate user account information and Contact Information in a simple format
+Create a page that lists out Transaction History
+Create a page that lists Credit score

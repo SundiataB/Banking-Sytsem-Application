@@ -1,0 +1,7 @@
+Goal #4: Create the ability for the user to make transactions.
+Users must be able to deposit money.
+Users must be able to withdraw money.
+Users must be able to transfer money. (DISCUSS)
+User must be able to dispute a charge
+User must be able to freeze/unfreeze credit cards
+If applicable

@@ -1,0 +1,30 @@
+REQUIREMENTS:
+- HAVE DOCKER DESKTOP DOWNLOADED (https://www.docker.com/blog/download-and-try-the-tech-preview-of-docker-desktop-for-m1/)
+- HAVE GITBASH DOWNLOADED (https://git-scm.com/)
+- HAVE JDK 11 FOR GIT BASH (https://adoptium.net/?variant=openjdk11&jvmVariant=hotspot)
+- HAVE GITHUB DESKTOP ANBD VISUAL STUDIO CODE (https://desktop.github.com/)
+INSTRUCTIONS:
+1. Clone the repository
+2. Pull the most recent changes to the banking system repository
+3. Once the repository is cloned and pulled Open gitbash
+4. Once in gitbash navigate until you make it to the DevOps directory
+	4.5: you can use the commands CD to do this
+5. After navigating to the devOps directory in the master branch, you need to make a clean slate of the build
+	5.5: To do that you enter "./buildMainBank.sh"
+6. After built, you should update the bank
+	6.5: You can do this by entering "./updateMainBank"
+7  To make the servlets work, you need to type in "./accessMySql.sh" 
+	7.5. When root@[containerID for mysql]:/# appears:  
+		TYPE: mysql -u root -p 
+		TYPE:wolfe2022 
+		in and press ENTER even thought it will look like you are not typing on screen
+
+8.To run the DatabaseSetup.sql script type "source DatabaseSetup.sql;"
+9. Open the Docker Desktop and click the box next to the tomcat container to open it in a web browser
+10. You will see an error, but go to the html link at the top and add "/Banking/faq.html"
+11. To log into the test account, you can go to the log in button and enter "test" as the username and "abcde"
+12. To log onto a custom account, you need to register an account in the register button
+13. After clicking the register button, you can fill out the information to create a custom account
+14. After registering, there is an option next to the button to log into your account on the log in screen
+15. From there you should be able to check your account history and transaction history
+16. There are tabs for being able to withdraw, deposit, and transfer the money in the account

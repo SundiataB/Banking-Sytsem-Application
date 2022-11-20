@@ -1,0 +1,21 @@
+  version: "3.9" #version of docker-compose
+  services:
+    mysql:
+      container_name: mysql
+      image: mysql
+      platform: linux/amd64
+      ports:
+      - "3307:3306"
+      environment:
+        - MYSQL_ROOT_PASSWORD=wolfe2022                   #default password of the MySQL container
+        - MYSQL_DATABASE=BankingSystemDB                  #name of a database to be created on image startup
+        - MySQL_USER=admin                                #username of the superuser that has access to the database
+        - MYSQL_PASSWORD=wolfeDB2022                      #password for the superuser
+      volumes:
+        - ./data:/var/lib/mysql                           #database data volume
+        - ./src/main/db:/docker-entrypoint-initdb.d/:ro   #database files called when the container is built and started for the first time
+    web:
+      container_name: tomcat
+      build: .
+      ports:
+        - "8080:8080"

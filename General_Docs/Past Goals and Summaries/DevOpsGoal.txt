@@ -1,0 +1,3 @@
+Foster team comminication channels among the groups.
+Create a script from scratch for the whole program.
+Delete Txt files in the repository.

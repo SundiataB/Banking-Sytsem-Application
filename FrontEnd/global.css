@@ -1,0 +1,273 @@
+@font-face{
+    font-family: 'Overpass';
+    src: url(assets/fonts/Overpass-VariableFont_wght.ttf);
+}
+
+body { 
+    background-image: url("atlantic_bank_bkg.png");
+    background-position: top;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000f24;
+
+    margin:0; 
+    padding: 0;
+    animation: bgcolor infinite 20s;
+    text-align: center;
+    line-height: 2;
+    font-family: Verdana, Arial, sans-serif;
+    font-family: 'Overpass', Verdana, Arial, sans-serif;
+    font-size: 200%;
+    color: #ffffff;
+/*    list-style: none;*/
+}
+
+ul, li{
+    list-style: none;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: white;
+}
+
+h2 {
+/*    font-family: Verdana, Arial, sans-serif;*/
+    font-size: 1.3em;
+    color: white;
+}
+
+p {
+/*    font-family: Verdana, Arial, sans-serif;*/
+    font-size: 50%;
+}
+
+/* Dropdown menu styling */
+.dropbtn {
+    background-color: #1c1b6a;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f74c30;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+}
+  
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover { background-color: #f77460; }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content { display:block; }
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn { background-color: #f74c30; }
+
+.navbar li a:hover {
+    background-color: #f74c30;
+}
+
+a:link, a:visited {
+/*    background-color: #F74C30;*/
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+/*    border-style: solid;*/
+/*    border-color: #F74C30;*/
+/*    border-radius: 12px;*/
+    transition-duration: 0.4s;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.logo {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 10px 15px 15px 10px;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.navbar {
+    display: flex;
+/*    height: 100px;*/
+    background-color: #1c1b6a;
+    font-size: 14px;
+    padding: 10px;
+    justify-content: right;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+
+.navbar i{
+    font-size: 50px !important;
+/*    float: left;*/
+    flex-grow: 2;
+    text-align: left;
+    color: #f74c30;
+    margin-left: 80px;
+}
+
+.navbar a{
+    flex-grow: 2;
+}
+
+.navbar li{
+    margin: 0px 15px
+}
+
+.outline {
+    border: 1px solid #F74C30;
+    border-radius: 25px;
+    min-width: 100px;
+}
+
+a {
+    transition: .2s all;
+}
+
+a:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
+    transition: .2s all;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.indextitle{
+    text-align: left;
+    padding-right: 30px;
+    padding-left: 100px;
+    font-size: 1.9em;
+}
+.summary {
+    text-align: right;
+    padding-right: 100px;
+    padding-left: 30px;
+}
+
+.account {
+    background-color: white;
+    border-top: 15px solid #F74C30;
+    text-align: left;
+    margin-left: 3%; 
+    margin-right: 3%;
+}
+
+.account h2 {
+    font-size: 100%;
+    color: #000f24;
+    margin-left: 2%;
+    margin-top: -.5%;
+}
+
+.account h3 {
+    font-size: 65%;
+    color:#000f24;
+    margin-left: 2%;
+    margin-top: -3%;
+}
+
+.account table#accountValues {
+   border-collapse: separate;
+   border-spacing:100px 0;
+   color: #000f24;
+   font-size: 70%;
+   margin-left: -5%;
+}
+
+.account nav {
+    background-color: white;
+}
+
+.account a.recentTransactions {
+   background-color: #F74C30;
+   color: white;
+   text-decoration: none;
+   display: inline-block;
+   text-align: center;
+   border-style: groove;
+   border-color: #F74C30;
+   border-radius: 12px;
+   transition-duration: 0.4s;
+   padding: 12px;
+}
+
+.account a:hover, a:active {
+   background-color: #000F24;
+   transform: scale(1);
+}
+
+/*
+.content-table {
+    border-collapse: collapse;
+    margin: 250px 0;
+    font-size: 0.9em;
+    min-width: 1360px;
+  }
+
+  .content-table thead tr {
+    background-color: #fcf6f3;
+    color: rgb(252, 249, 245);
+    text-align: center;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid rgba(248, 245, 241, 0.966) ;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    border-bottom: 1px solid #fcfbfb ;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #f9fdfd ;
+  }
+  */

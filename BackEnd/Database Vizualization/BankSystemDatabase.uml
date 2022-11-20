@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.account_ownership</OriginalElement>
+  <nodes>
+    <node x="51.24999999999997" y="98.33015267175573">6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.account_types</node>
+    <node x="61.74999999999997" y="326.26526717557255">6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.accounts</node>
+    <node x="0.0" y="544.0">6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.transaction</node>
+    <node x="276.5" y="224.86641221374046">6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.users</node>
+    <node x="240.0" y="566.0">6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.account_ownership</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.transaction" target="6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.accounts" relationship="REFERENCES">
+      <point x="0.0" y="-61.5" />
+      <point x="110.0" y="519.0" />
+      <point x="142.74999999999997" y="519.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.accounts" target="6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.account_types" relationship="REFERENCES">
+      <point x="0.0" y="-72.5" />
+      <point x="142.74999999999997" y="246.63263358778627" />
+      <point x="142.74999999999997" y="246.63263358778627" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.account_ownership" target="6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.accounts" relationship="REFERENCES">
+      <point x="-42.5" y="-39.5" />
+      <point x="282.5" y="519.0" />
+      <point x="142.74999999999997" y="519.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.account_ownership" target="6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.users" relationship="REFERENCES">
+      <point x="42.5" y="-39.5" />
+      <point x="0.0" y="138.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7627365356622998" showDependencies="false" x="213.0" y="333.5" />
+  <SelectedNodes>
+    <node>6afd7624-cddb-4b78-b988-da7ac3b2a874.TABLE:postgres.SoftwareEngineeringBankSystem.account_types</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

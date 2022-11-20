@@ -1,0 +1,4 @@
+Goal #1: Create a home page GUI to navigate the banking system.
+User should see a login/sign-up section on the main page
+User should see a basic description of the banking system
+Users should be able to log out, if they are logged in (this applies to ALL sections of the GUI).

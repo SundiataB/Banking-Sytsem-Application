@@ -1,0 +1,19 @@
+This is a report from project management that compiled the feedback from its members on Our Webpage design draft:
+
+
+----------------------------------------------------------
+Main Page Itself: I only have 2 concerns/notes:
+1.) I feel like adding the name of the bank somewhere might be beneficial. I see it in the description, "Here at Atlantic Bank..." but putting it somewhere else (perhaps next to the house icon in the Navigation Bar) would firmly establish it as the "Atlantic Bank" home page, while also not having to keep adding the name in different spots since the navigation bar (to my understanding) carries over between pages.
+2.) I see the footer is temporary, but I feel like something else should go there. Having Credit Score Checker, Withdrawals, Deposits in 3 different locations on the same main page might be overkill. What should go there? I have 0 clue.
+
+Otherwise, I think it's great. It says what we offer, gives you a space to log in/register (and log out IF you're logged in because of the navigation bar), gives an area for questions (and offers further assistance if needed), and has great color balance.
+----------------------------------------------------------
+Navigation Bars: 
+Quick question: These apply to every page, right? (home page, credit score page, transaction history page, etc.)
+Only 1 concern/note:
+1.) We're going to have a transaction history IIRC (Backend has even been making a database for it), but I don't see it listed here. Perhaps bundling deposit/withdrawal into one item and then adding Transaction History would keep it similar space, more items. Then again, that decision (and whether or not it is a concern) is up to you.
+Besides the above notes: Good draft overall. Simple, Well-formatted, and includes most every service the class has laid out. Note #1 for the home page notes the only other thing I think could be added here. (though it could also clutter the Navigation bar),
+-----------------------------------------------------------
+Color/Font Choice: Good choices, blend together nicely, and the fonts are easy to read. (edited)
+I think it's good. really good so props to them. If there's one thing to nit pick, and this is REALLY nitpicky, I think maybe register should be before the credit score checker unless you don't need an account to check your score.
+Overall we have approved the design of the banking system pdf.

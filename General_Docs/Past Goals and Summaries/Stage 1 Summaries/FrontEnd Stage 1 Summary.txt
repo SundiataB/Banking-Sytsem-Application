@@ -1,0 +1,23 @@
+Blake Franklin
+Manager of Front End Team
+2/3/2022 - 3/8/2022
+
+Accomplishments:
+- Worked with Product management to draft a design for the finished look of the web app
+- Worked with Backend to create forms for signing in, user account creation, and bank account creation
+- Created a login page and user account creation page
+- Created a Home page template that can be copied to other pages to retain visual consistancy
+- Determined how various services the app offers will be seperated and organized on various pages
+- Created additional pages that will host information for Withdrawals, Deposits, Credit Score checking, bank account creation, etc.
+- Started building a centralized CSS file for all pages
+- Created an overarching menu bar that links all pages together, providing for easy navigation
+- Researched into Java Application Server Jetty for Web server deployment
+
+Goals moving forward:
+- Better documentation (this is something I fell behind on)
+- Work with Product Management to further flesh out information on pages
+- testing web server deployment with Jetty
+- establish connection to send data from web forms to backend database
+- Begin implementing Javascript code into the HTML format
+- Use Backend template functions to display information regarding credit score, withdrawals, login attempts, etc.
+- continue improving visual design using CSS

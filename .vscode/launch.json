@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch connectionTest",
+            "request": "launch",
+            "mainClass": "connectionTest",
+            "projectName": "Bank-System-2022_f1a24f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Bank-System-2022_821d65de"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - External Terminal",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build Java Classes",
+            "sourcePaths": [
+                "./build/",
+                "."
+            ],
+            "classPaths": [
+                "./build/",
+                "."
+            ],
+            "mainClass": "${fileBasenameNoExtension}",
+            "stopOnEntry": false,
+            "console": "integratedTerminal"
+        }
+    ]
+}

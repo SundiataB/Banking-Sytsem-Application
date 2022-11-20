@@ -1,0 +1,3 @@
+Goal #7: Refine the system
+Run final tests and fix any remaining/uncovered issues
+Finish revising GUI to a deployable level

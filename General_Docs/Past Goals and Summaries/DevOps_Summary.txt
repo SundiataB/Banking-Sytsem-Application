@@ -1,0 +1,6 @@
+Dev Ops had 3 main goals during this set up
+	1. Set up Discord and Notion to allow for easier communication among teams
+	2. Set up a starter Sample Bash Script(s)
+	3. Get Docker set up so that it will be ready for the rest of the teams
+We achieved the first 2 goals. We were not able to figure out dockers but a lot of what we tried to do was handle communication and try to
+learn a bit of bash which I think we managed to handle. This should leave the Next Dev Op team able to focus on docker and bash.

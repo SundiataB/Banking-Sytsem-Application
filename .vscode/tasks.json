@@ -1,0 +1,91 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Java Classes",
+      "type": "shell",
+      "group": "build",
+      "osx": { // Build Mac
+        "command": "javac",
+        "args": [
+          "*.java",
+          "-d",
+          "${workspaceRoot}/build/",
+        ],
+      },
+      "linux": { // Build Linux
+        "command": "javac",
+        "args": [
+          "*.java",
+          "-d",
+          "${workspaceRoot}/build/",
+       ],
+      },
+      "windows": { // Build Windozzze
+        "command": "javac",
+        "args": [
+          "*.java",
+          "-d",
+          "${workspaceRoot}/build/",
+        ],
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": {
+        "owner": "java",
+        "fileLocation": ["relative", "${fileDirname}"],
+        "pattern": [
+          {
+            "regexp": "^(.*)$",
+            "message": 1
+          },
+          {
+            "regexp": "^\\s*at .+\\((.+):([0-9]+)\\)$",
+            "file": 1,
+            "line": 2
+          }
+        ]
+      }
+    },
+    {
+      "label": "Build and Run Java App",
+      "type": "shell",
+      "group": "build",
+       "dependsOn": [
+        "Build Java Classes"
+      ],
+      "dependsOrder": "sequence",
+      "osx": { // Run Mac
+        "command": "java -classpath ./build/ -Xmx128M -Xms16M ${fileBasenameNoExtension}",
+        "args": []
+      },
+      "linux": { // Run Linux
+        "command": "java -classpath ./build/ -Xmx128M -Xms16M ${fileBasenameNoExtension}",
+        "args": []
+       },
+      "windows": { // Run Windozzze
+        "command": "java -classpath ./build/ -Xmx128M -Xms16M ${fileBasenameNoExtension}",
+        "args": []
+       },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": {
+        "owner": "java",
+        "fileLocation": "absolute",
+        "pattern": {
+            "regexp": "^(.*):([0-9]+): (error|warning): (.*)$",
+            "file": 1,
+            "line": 2,
+            "severity": 3,
+            "message": 4
+        }
+      }
+    }
+  ]
+}

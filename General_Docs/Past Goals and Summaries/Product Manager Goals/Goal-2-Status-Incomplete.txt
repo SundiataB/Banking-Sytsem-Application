@@ -1,0 +1,5 @@
+Goal #2: Create a “create an account” / login page with a (unique) username and password and email. (potentially other info) They must make an account with us.
+User has to be able to enter and store a unique username
+User has to be able to enter and store a password
+Passwords need certain characters??? (DISCUSS)
+Product manager should be making tests around here 

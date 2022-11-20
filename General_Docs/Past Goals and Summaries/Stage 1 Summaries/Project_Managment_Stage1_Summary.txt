@@ -1,0 +1,32 @@
+Cael Meilleur
+Manager of Project management Team
+2/3/2022 - 3/8/2022
+
+Basic definition: 
+Project management focuses on planning and organizing a project and its resources.
+This includes identifying and managing the lifecycle to be used, applying it to the user-centered design process, 
+formulating the project team, and efficiently guiding the team through all phases until project completion.
+____________________________________________________________________________________________________________________
+What to do as a part of project management:
+Project management is the process of leading the work of a team to achieve all project goals 
+(the ones listed in either the google doc or the .txt file in the system) 
+that have been already set as well as making new ones should you need to help guide the other teams. 
+You also should set deadlines for when certain parts of the project should be completed by.
+The other main part of project management is quality assurance meaning that you and your team have to make sure the system meets all 
+the requirements that have been set as well as adding new requirements or getting rid of requirements. 
+The last main part of project management is writing tests for the system. The way to do that is via Junit 5. 
+Junit sets up a template to start testing things and looks for a boolean result so keep that in mind for creating tests. 
+_________________________________________________________________________________________________________________________________________
+
+Project manager: You are now the head of this project and you can steer it how you see fit. 
+By that I mean you have meetings with your team to discuss what the other teams should be working on and towards. 
+Also during these meetings you should discuss the goals and requirements of the system. You should also communicate with 
+the other managers on a regular basis whether it be after class on Tues/Thurs or at the end of the week. 
+You should also conduct meetings with the other managers to receive updates on how each team is doing and what has been accomplished and 
+give them what they should be working on next. 
+Also discussing things that Prof Wolfe might ask of you as managers.
+____________________________________________________________________________________________________________________________________________
+Where the last team left off:
+My team and I left off setting up several goals which are listed in both the google doc and the .txt file. 
+We also started learning Junit 5 right before the mardi gras break. We were also going to set up a timeline of when things should be done; however, 
+we didn’t do that since Notion was not set up till right before the break. 

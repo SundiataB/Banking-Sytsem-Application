@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings":
+		{
+			"files.autoSave": "onWindowChange",
+			"files.hotExit": "off",
+			"files.associations": {
+				"iostream": "cpp"
+			},
+			"files.exclude": {
+				"**/.classpath": true,
+				"**/.project": true,
+				"**/.settings": true,
+				"**/.factorypath": true
+			},
+			"java.project.sourcePaths": [
+				"FrontEnd",
+				"BackEnd\\Java",
+				"BackEnd\\JUnit_Tests"
+			],
+			"livePreview.defaultPreviewPath": "/FrontEnd/faq.html",
+			"java.project.referencedLibraries": [
+				"lib/**/*.jar"
+			],
+		}
+}

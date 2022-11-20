@@ -1,0 +1,4 @@
+Goal #5: Allow the user the ability to log-out
+User must be able to log-out after logging in
+User should be transported back to the main menu page 
+Or, perhaps, an intermediary page that takes them to the home page

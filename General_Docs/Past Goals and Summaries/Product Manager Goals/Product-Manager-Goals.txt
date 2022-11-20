@@ -1,0 +1,42 @@
+Product Manager Goals:
+
+Structured Goal List
+
+Goal #1: Create a home page GUI to navigate the banking system.
+User should see a login/sign-up section on the main page
+User should see a basic description of the banking system
+Users should be able to log out, if they are logged in (this applies to ALL sections of the GUI).
+
+Goal #2: Create a “create an account” / login page with a (unique) username and password and email. (potentially other info) They must make an account with us.
+User has to be able to enter and store a unique username
+User has to be able to enter and store a password
+Passwords need certain characters??? (DISCUSS)
+Product manager should be making tests around here 
+
+Goal #3: Enable creation of a type of bank account / credit card linked to their login.
+User must be given a choice of checkings and savings
+User must be able to create a credit card if desired
+
+Goal #4: Create the ability for the user to make transactions.
+Users must be able to deposit money.
+Users must be able to withdraw money.
+Users must be able to transfer money. (DISCUSS)
+User must be able to dispute a charge
+User must be able to freeze/unfreeze credit cards
+If applicable
+
+Goal #5: Allow the user the ability to log-out
+User must be able to log-out after logging in
+User should be transported back to the main menu page 
+Or, perhaps, an intermediary page that takes them to the home page
+
+Goal #6: Implement user-oriented account information.
+User will be able to view credit score
+User will be able to track transactions
+
+Goal #7: Refine the system
+Run final tests and fix any remaining/uncovered issues
+Finish revising GUI to a deployable level
+ 
+Goals Timeline:
+In Progress
